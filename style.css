@@ -8,7 +8,7 @@ body {
     height: 100vh;
 }
 
-/* Main container */
+
 .game-container {
     background: white;
     padding: 30px;
@@ -16,4 +16,43 @@ body {
     width: 300px;
     text-align: center;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+
+.choices button {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #f1f1f1;
+    transition: 0.2s;
+}
+
+.choices button:hover {
+    background: #ddd;
+    transform: scale(1.1);
+}
+
+
+.display {
+    margin-top: 15px;
+}
+
+#result {
+    margin-top: 10px;
+    color: #333;
 }
