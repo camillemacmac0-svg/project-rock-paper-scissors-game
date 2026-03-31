@@ -43,7 +43,7 @@ h1 {
 }
 
 .choices button:hover {
-    background: #ddd;
+    background: #87f16c;
     transform: scale(1.1);
 }
 
