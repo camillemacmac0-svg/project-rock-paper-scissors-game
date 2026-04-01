@@ -8,15 +8,7 @@ body {
     height: 100vh;
 }
 
-/* test rebuild */
-.game-container {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    width: 300px;
-    text-align: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
+
 
 h1 {
     margin-bottom: 10px;
