@@ -10,7 +10,8 @@ body {
 
 /* test rebuild */
 .game-container {
-    background: #f1f1f1;
+    background: white;
+    border: 3px solide black;
     padding: 30px;
     border-radius: 15px;
     width: 300px;
