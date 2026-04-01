@@ -37,10 +37,14 @@ h1 {
     padding: 10px;
     border: none;
     border-radius: 10px;
-    display: block;
     cursor: pointer;
     background: #f1f1f1;
     transition: 0.2s;
+    display: flex;
+    flex-direction: columns;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
 }
 
 .choices button:hover {
