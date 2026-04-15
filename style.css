@@ -29,10 +29,10 @@ h1 {
 }
 
 .choices button {
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     margin: 10px;
-    padding: 30px 40px;
+    padding: 250px 30px;
     border: none;
     outline: 2px solid black;
     border-radius: 10px;
