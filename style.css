@@ -50,6 +50,8 @@ h1 {
 
 .display {
     margin-top: 15px;
+    font-size: 24px;
+    text-align: center;
 }
 
 #result {
