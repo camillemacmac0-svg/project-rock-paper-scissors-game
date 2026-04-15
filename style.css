@@ -8,13 +8,6 @@ body {
     height: 100vh;
 }
 
-/* test rebuild */
-.game-container {
-    width: 300px;
-    text-align: center;
-    
-}
-
 h1 {
     margin-bottom: 10px;
 }
