@@ -13,12 +13,16 @@ h1 {
     font-size: 48px;
     font-weight: bold;
 }
-
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
 .score {
     text-align: center;
     margin: 15px 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .choices button {
