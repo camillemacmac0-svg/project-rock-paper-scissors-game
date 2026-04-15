@@ -41,7 +41,6 @@ h1 {
     transition: 0.2s;
 }
 
-
 .choices button:hover {
     background: #87f16c;
     transform: scale(1.1);
