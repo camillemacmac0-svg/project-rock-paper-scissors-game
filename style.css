@@ -21,9 +21,10 @@ h1 {
 
 .score {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 50%;
     text-align: center;
-    margin: 15px 0;
+    margin: 15px auto;
     font-size: 28px;
 }
 
