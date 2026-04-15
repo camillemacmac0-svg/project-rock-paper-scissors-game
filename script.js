@@ -6,10 +6,10 @@ function playGame(userChoice) {
     const computerChoice = choices[Math.floor(Math.random() * 3)];
 
     document.getElementById("player-choice").textContent =
-        "You chose: " + userChoice;
+        "You: " + userChoice;
 
 document.getElementById("computer-choice").textContent =
-        "Computer chose: " + computerChoice;
+        "Computer: " + computerChoice;
 
     let result = "";
 
