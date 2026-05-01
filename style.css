@@ -19,6 +19,7 @@ h1 {
     align-items: center;
     text-align: center;
 
+}
 .score {
     display: flex;
     justify-content: space-between;
