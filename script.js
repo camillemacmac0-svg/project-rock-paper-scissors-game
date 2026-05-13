@@ -33,4 +33,13 @@ document.getElementById("computer-choice").textContent =
     document.getElementById("computer-score").textContent = computerScore;
 
 }
+function resetGame() {
+    userScore = 0;
+    computerScore = 0;
+    document.getElementById("user-score").textContent = userScore;
+    document.getElementById("computer-score").textContent = computerScore;
+    document.getElementById("player-choice").textContent = "You:";
+    document.getElementById("computer-choice").textContent = "Computer:";
+    document.getElementById("result").textContent = "Result";
+}
 
