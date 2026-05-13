@@ -16,9 +16,9 @@ document.getElementById("computer-choice").textContent =
     if (userChoice === computerChoice) {
         result = "It's a Tie!";
     } else if (
-        (userChoice === "rock" && computerChoice === "scissors") ||
-        (userChoice === "paper" && computerChoice === "rock") ||
-        (userChoice === "scissors" && computerChoice === "paper")
+        (userChoice === "rock" && computerChoice === "Scissors") ||
+        (userChoice === "paper" && computerChoice === "Rock") ||
+        (userChoice === "scissors" && computerChoice === "Paper")
     ) {
         result = "You Win!";
         userScore++;
