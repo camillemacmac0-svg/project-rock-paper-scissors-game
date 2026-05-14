@@ -2,23 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <title>Rock Paper Scissors</title>
-     <link rel="stylesheet"href="style.css">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="camya.css">
+
 </head>
 <body>
 
- <div class="wrapper"> 
-<h1>Rock Paper Scissors</h1>
+ <div class="wrapper">
+    <h1>Rock Paper Scissors</h1>
 
-<div class="score">
-    <span>You:<b id="user-score">0</b></span>
-       <span>Computer:<b id="computer-score">0</b></span>
+    <!-- Target Score Display -->
+    <div class="target-score">
+        First to reach: <strong>10 Points</strong> to win!
     </div>
 
-    <div class="choices">
-        <button onclick="playGame('Rock')">✊</button>
-        <button onclick="playGame('Paper')">✋</button>
-        <button onclick="playGame('Scissors')">✌️</button>
+    
+    <div class="score-container">
+        <div class="score-box">
+            <span>Player</span>
+            <b id="user-score">0</b>
+        </div>
+        <div class="score-box">
+            <span>Computer</span>
+            <b id="computer-score">0</b>
+        </div>
+    </div>
+
+    
+    <div class="choices" id="choice-buttons">
+        <button onclick="playGame('rock')" class="choice-btn rock">✊</button>
+        <button onclick="playGame('paper')" class="choice-btn paper">✋</button>
+        <button onclick="playGame('scissors')" class="choice-btn scissors">✌️</button>
     </div>
 
      <div class="display">
