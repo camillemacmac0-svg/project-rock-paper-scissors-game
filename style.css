@@ -100,3 +100,38 @@ h1 {
     backdrop-filter: blur(12px);
     color: #fff;
 }
+
+.rock {
+    background: rgba(255, 183, 66, 0.25);
+    box-shadow: 0 0 20px rgba(255, 183, 66, 0.3);
+}
+.paper {
+    background: rgba(236, 72, 153, 0.25);
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
+}
+.scissors {
+    background: rgba(66, 165, 255, 0.25);
+    box-shadow: 0 0 20px rgba(66, 165, 255, 0.3);
+}
+
+.choice-btn:hover {
+    transform: scale(1.12);
+    filter: brightness(1.2);
+}
+.choice-btn:active { transform: scale(0.96); }
+
+.result-card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 15px 10px;
+    color: #ffffff;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18);
+    margin-bottom: 15px;
+}
+
+.result-card p {
+    font-size: 17px;
+    margin: 4px 0;
+    opacity: 0.9;
+}
