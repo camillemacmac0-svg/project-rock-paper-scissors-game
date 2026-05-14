@@ -1,6 +1,6 @@
 let userScore = 0;
 let computerScore = 0;
-const WIN_SCORE = 10; // Change to 3 or 10 if you want
+const WIN_SCORE = 10; 
 let gameEnded = false;
 
 function playGame(userChoice) {
