@@ -28,7 +28,6 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-
 h1 {
     font-size: 30px;
     font-weight: bold;
@@ -63,6 +62,41 @@ h1 {
     color: #ffffff;
 }
 
-    background: #c0392b;
-    transform: scale(1.05);
+    .score-box span {
+    display: block;
+    font-size: 16px;
+    opacity: 0.85;
+    margin-bottom: 4px;
+}
+
+.score-box b {
+    font-size: 38px;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.choices.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.choice-btn {
+    font-size: 48px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18),
+                inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(12px);
+    color: #fff;
 }
