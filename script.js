@@ -19,27 +19,28 @@ function playGame(userChoice) {
     const resultEl = document.getElementById("result");
     resultEl.className = "";
 
-    
-        result = "You Win!";
+    if (userChoice === computerChoice) {
+        result = "IT'S A TIE! 🤝";
+        resultEl.classList.add("tie");
+    } 
+    else if (
+        (userChoice === "rock" && computerChoice === "scissors") ||
+        (userChoice === "paper" && computerChoice === "rock") ||
+        (userChoice === "scissors" && computerChoice === "paper")
+    ) {
+        result = "YOU WIN! 🎉";
         userScore++;
-    } else {
-        result = "Computer Wins!";
+        resultEl.classList.add("win");
+    } 
+    else {
+        result = "YOU LOSE! 😢";
         computerScore++;
+        resultEl.classList.add("lose");
     }
 
-    document.getElementById("result").textContent = result;
-
+    resultEl.textContent = result;
     document.getElementById("user-score").textContent = userScore;
     document.getElementById("computer-score").textContent = computerScore;
 
+    checkGameEnd();
 }
-function resetGame() {
-    userScore = 0;
-    computerScore = 0;
-    document.getElementById("user-score").textContent = userScore;
-    document.getElementById("computer-score").textContent = computerScore;
-    document.getElementById("player-choice").textContent = "You:";
-    document.getElementById("computer-choice").textContent = "Computer:";
-    document.getElementById("result").textContent = "Result";
-}
-
