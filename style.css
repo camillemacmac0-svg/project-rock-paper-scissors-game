@@ -143,17 +143,17 @@ h1 {
     text-shadow: 0 0 10px currentColor;
 }
 
-.win { color: #4ADE80 !important; }
-.lose { color: #FB7185 !important; }
-.tie { color: #FBBF24 !important; }
+.win { color: #4ADE80; }
+.lose { color: #FB7185; }
+.tie { color: #FBBF24; }
 .final-win {
-    color: #4ADE80 !important;
-    font-size: 30px !important;
+    color: #4ADE80;
+    font-size: 30px ;
     text-shadow: 0 0 15px #4ADE80;
 }
 .final-lose {
-    color: #FB7185 !important;
-    font-size: 30px !important;
+    color: #FB7185;
+    font-size: 30px;
     text-shadow: 0 0 15px #FB7185;
 }
 
